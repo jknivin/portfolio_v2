@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root { font-family: 'DM Sans', sans-serif; color: #f3f4f2; background: #080a09; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; --bg: #080a09; --surface: #101311; --surface-2: #151916; --text: #f3f4f2; --muted: #929992; --subtle: #626c64; --line: rgba(231,242,233,.105); --accent: #6ce0a4; --accent-deep: #30b979; --glass: rgba(14,18,15,.82); --shadow: 0 30px 90px rgba(0,0,0,.35); color-scheme: dark; scroll-behavior: smooth; }
+:root[data-theme='light'] { --bg: #f5f7f4; --surface: #fff; --surface-2: #edf2ed; --text: #171d19; --muted: #526056; --subtle: #7a877d; --line: rgba(25,44,31,.13); --accent: #138b54; --accent-deep: #08733f; --glass: rgba(250,252,249,.88); --shadow: 0 30px 90px rgba(16,48,25,.1); color-scheme: light; }
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-padding-top: 100px; }
+body { margin: 0; min-width: 320px; background: var(--bg); color: var(--text); }
+body, button, input, textarea { font-family: 'DM Sans', sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; text-decoration: none; }
+button { color: inherit; }
+::selection { background: var(--accent); color: #06100a; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
